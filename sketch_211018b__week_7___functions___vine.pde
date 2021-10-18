@@ -19,7 +19,7 @@ void vine(int x, int numLeaves, int leafSize) {
   }
 }
 
-void leaf(int x, int y, int size, int dir){
+void leaf(int x, int y, int size, int dir){  //creates leaf shape on the vine
   pushMatrix();
   translate(x,y);   //move to position
   scale(size);      //scale to size
